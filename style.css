@@ -1,0 +1,131 @@
+body{
+    background-image: linear-gradient(
+    #E4482E,
+    rgb(29,40,42)
+    );
+
+    height: 100vh;
+    color: white;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1em 0 1em 0;
+}
+
+#music_name {
+    font-size: 1.5em;
+    font-weight: bolder;
+    margin-bottom: 0em; 
+}
+
+#band_name {
+    margin-top: 0em;
+}
+
+#botoes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+button{
+    background-color: inherit;
+    color: inherit;
+    border: none;
+}
+
+.button{
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.button-navigate {
+    font-size: 3em;
+}
+
+.button-navigate-big{
+    font-size: 5em;
+}
+
+#cover{
+    width: 450px;
+}
+
+
+#playlist-head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin:  3em 0 2em 0;
+}
+
+#logo{
+    height: 4em;
+    margin-right: 1em;
+}
+
+#playlist-title{
+    font-size: 3em;
+    margin:  0 0 0 0;
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight: lighter;
+}
+
+#music_name{
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+.light-color{
+    color: rgb(139,153,156);
+}
+
+#progress-bar{
+    background-color: rgb(139,153,156);
+    height: 4px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+#volume-bar{
+    width: 100%;    
+}
+
+
+
+#current-progress{
+    --progress: 0%;
+    background-color: white;
+    height: inherit;
+    width: var(--progress);
+    border-radius: inherit;
+}
+
+#progress-container{
+    padding-bottom: 1em;
+    cursor: pointer;
+
+}
+
+.button-active{
+    color: rgb(0, 183,107);
+}
+
+#time-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: smaller;
+    margin-top: 0.6em;
+
+}
