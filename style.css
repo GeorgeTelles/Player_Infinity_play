@@ -13,7 +13,7 @@ body {
 }
 
 .music-container {
-    width: 100%; /* Ocupa toda a largura da tela */
+    width: 96%; /* Ocupa toda a largura da tela */
     max-width: 600px; /* Defina uma largura máxima para o conteúdo */
     padding: 20px; /* Adicione um espaçamento interno ao contentor */
 }
