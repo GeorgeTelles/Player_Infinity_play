@@ -1,15 +1,21 @@
-body{
+body {
     background-image: linear-gradient(
-    #E4482E,
-    rgb(29,40,42)
+        #E4482E,
+        rgb(29, 40, 42)
     );
-
-    height: 100vh;
+    height: 100%;
     color: white;
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0; /* Remova a margem padrão do corpo */
+}
+
+.music-container {
+    width: 100%; /* Ocupa toda a largura da tela */
+    max-width: 600px; /* Defina uma largura máxima para o conteúdo */
+    padding: 20px; /* Adicione um espaçamento interno ao contentor */
 }
 
 #info{
@@ -128,4 +134,20 @@ button{
     font-size: smaller;
     margin-top: 0.6em;
 
+}
+
+@media (max-width: 768px) {
+    .music-container {
+        padding: 10px; /* Reduza o espaçamento interno em telas menores */
+    }
+
+    #cover {
+        width: 100%; /* A imagem de capa ocupa toda a largura */
+    }
+
+    #playlist-title {
+        font-size: 2em; /* Reduza o tamanho do título da playlist em telas menores */
+    }
+
+    /* Adicione mais regras de estilo conforme necessário */
 }
