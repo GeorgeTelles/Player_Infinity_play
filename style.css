@@ -12,11 +12,6 @@ body {
     margin: 0; /* Remova a margem padrão do corpo */
 }
 
-.music-container {
-    width: 96%; /* Ocupa toda a largura da tela */
-    max-width: 600px; /* Defina uma largura máxima para o conteúdo */
-    padding: 20px; /* Adicione um espaçamento interno ao contentor */
-}
 
 #info{
     display: flex;
@@ -139,6 +134,9 @@ button{
 @media (max-width: 768px) {
     .music-container {
         padding: 10px; /* Reduza o espaçamento interno em telas menores */
+        width: 96%; /* Ocupa toda a largura da tela */
+        max-width: 600px; /* Defina uma largura máxima para o conteúdo */
+        padding: 20px; /* Adicione um espaçamento interno ao contentor */
     }
 
     #cover {
